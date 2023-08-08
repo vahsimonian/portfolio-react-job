@@ -1,8 +1,15 @@
-import './index.css'
-import { FaBeer } from 'react-icons/fa'
+import Home from './components/Home'
+import Navbar from './components/Navbar'
+import SocialLinks from './components/SocialLinks'
 
 function App() {
-  return <div className='text-4xl font-bold font-signature'>Some</div>
+  return (
+    <div>
+      <Navbar />
+      <Home />
+      <SocialLinks />
+    </div>
+  )
 }
 
 export default App

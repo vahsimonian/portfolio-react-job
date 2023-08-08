@@ -6,8 +6,13 @@
 @tailwind components;
 @tailwind utilities;
 
+h1 {
+  font-family: 'Great Vibes', cursive;
+}
+
 @layer base {
   html {
     font-family: 'Raleway', sans-serif;
+    scroll-behavior: smooth;
   }
 }
