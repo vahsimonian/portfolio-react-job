@@ -1,6 +1,7 @@
-import React, { useState } from 'react'
+import React from 'react'
 import HeroImage from '../heroimage.jpg'
 import { TbArrowNarrowRight } from 'react-icons/tb'
+import { Link } from 'react-scroll'
 
 const Home = () => {
   return (
@@ -11,7 +12,7 @@ const Home = () => {
       <div className='max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-4 md:flex-row'>
         <div className='flex flex-col justify-center h-full'>
           <h2 className='text-4xl sm:text-7xl font-bold text-white'>
-            I'm not a fullstack developer
+            i'm not a fullstack developer
           </h2>
           <p className='text-gray-500 py-4 max-w-d'>
             Dedicated JavaScript React developer since January 2022, proficient
@@ -21,12 +22,17 @@ const Home = () => {
             experiences.
           </p>
           <div>
-            <button className='group text-white w-fit px-4 py-2 my-2 flex items-center rounded-md bg-gradient-to-r from-cyan-500 to-blue-900 cursor-pointer gap-1 '>
+            <Link
+              to='portfolio'
+              smooth
+              duration={500}
+              className='group text-white w-fit px-4 py-2 my-2 flex items-center rounded-md bg-gradient-to-r from-cyan-500 to-blue-900 cursor-pointer gap-1 '
+            >
               Portfolio
               <span className='group-hover:rotate-90 duration-300'>
                 <TbArrowNarrowRight size={20} />
               </span>
-            </button>
+            </Link>
           </div>
         </div>
 
