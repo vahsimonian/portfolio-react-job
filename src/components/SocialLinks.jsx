@@ -47,9 +47,9 @@ const SocialLinks = () => {
     },
   ]
 
-  var otherWindow = window.open()
-  otherWindow.opener = null
-  otherWindow.location = url
+  // var otherWindow = window.open()
+  // otherWindow.opener = null
+  // otherWindow.location = url
 
   return (
     <div className='hidden lg:flex flex-col top-[35%] left-0 fixed'>
