@@ -47,6 +47,10 @@ const SocialLinks = () => {
     },
   ]
 
+  var otherWindow = window.open()
+  otherWindow.opener = null
+  otherWindow.location = url
+
   return (
     <div className='hidden lg:flex flex-col top-[35%] left-0 fixed'>
       <ul>
@@ -64,6 +68,8 @@ const SocialLinks = () => {
               className='flex justify-between items-center w-full text-white'
               download={download}
               target='_blank'
+              // target={otherWindow}
+              rel='noreferrer'
             >
               {child}
             </a>
