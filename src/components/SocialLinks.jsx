@@ -13,7 +13,7 @@ const SocialLinks = () => {
         </>
       ),
       href: 'https://www.linkedin.com/in/cimoonian/',
-      style: 'rounded-tr-md',
+      style: 'rounded-br-md',
     },
     {
       id: 2,
@@ -23,7 +23,7 @@ const SocialLinks = () => {
         </>
       ),
       href: 'https://github.com/vahsimonian',
-      style: 'rounded-tr-md',
+      style: 'rounded-br-md',
     },
     {
       id: 3,
@@ -33,6 +33,7 @@ const SocialLinks = () => {
         </>
       ),
       href: 'mailto:vahsimonian@gmail.com',
+      style: 'rounded-br-md',
     },
     {
       id: 4,
@@ -47,9 +48,7 @@ const SocialLinks = () => {
     },
   ]
 
-  // var otherWindow = window.open()
-  // otherWindow.opener = null
-  // otherWindow.location = url
+  const hiddenIcons = 'sm:flex bottom-0 left-[50%]'
 
   return (
     <div className='hidden lg:flex flex-col top-[35%] left-0 fixed'>
@@ -68,7 +67,6 @@ const SocialLinks = () => {
               className='flex justify-between items-center w-full text-white'
               download={download}
               target='_blank'
-              // target={otherWindow}
               rel='noreferrer'
             >
               {child}

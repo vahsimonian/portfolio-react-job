@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import { FaBars, FaTimes } from 'react-icons/fa'
+import { NavLink } from 'react-router-dom'
 import { Link } from 'react-scroll'
 
 const Navbar = () => {
@@ -42,7 +43,9 @@ const Navbar = () => {
         text-gray-500 hover:scale-105 duration-200'
             >
               <Link to={link} smooth duration={500}>
+                {/* <NavLink to={link}> */}
                 {link}
+                {/* </NavLink> */}
               </Link>
             </li>
           )
