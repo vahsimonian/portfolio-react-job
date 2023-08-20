@@ -12,8 +12,8 @@ const SocialLinks = () => {
           LinkedIn <FaLinkedin size={30} />
         </>
       ),
-      href: 'https://www.linkedin.com/in/cimoonian/',
-      style: 'rounded-br-md',
+      href: 'https://linkedin.com',
+      style: 'rounded-tr-md',
     },
     {
       id: 2,
@@ -22,8 +22,7 @@ const SocialLinks = () => {
           GitHub <FaGithub size={30} />
         </>
       ),
-      href: 'https://github.com/vahsimonian',
-      style: 'rounded-br-md',
+      href: 'https://github.com/theyashpatel',
     },
     {
       id: 3,
@@ -32,8 +31,7 @@ const SocialLinks = () => {
           Mail <HiOutlineMail size={30} />
         </>
       ),
-      href: 'mailto:vahsimonian@gmail.com',
-      style: 'rounded-br-md',
+      href: 'mailto:foo@gmail.com',
     },
     {
       id: 4,
@@ -42,13 +40,11 @@ const SocialLinks = () => {
           Resume <BsFillPersonLinesFill size={30} />
         </>
       ),
-      href: 'resume.pdf',
+      href: '/resume.pdf',
       style: 'rounded-br-md',
       download: true,
     },
   ]
-
-  const hiddenIcons = 'sm:flex bottom-0 left-[50%]'
 
   return (
     <div className='hidden lg:flex flex-col top-[35%] left-0 fixed'>

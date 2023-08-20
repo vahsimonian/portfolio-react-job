@@ -12,22 +12,25 @@ const About = () => {
             About
           </p>
         </div>
+
         <p className='text-xl mt-20'>
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facilis
-          sequi amet maxime ipsum odit facere incidunt cupiditate unde adipisci
-          asperiores. Beatae eius fuga exercitationem eligendi sunt. Culpa
-          soluta repudiandae nostrum commodi, eos explicabo dicta laborum
-          voluptatum aperiam rerum deleniti officiis, aliquam iste praesentium
-          laudantium labore sapiente consequatur quaerat saepe quae.
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eius,
+          deserunt illum mollitia officiis qui exercitationem perferendis neque
+          quasi a recusandae necessitatibus tempora iusto! Blanditiis error
+          iste, totam fugiat recusandae rerum laborum perferendis molestiae
+          aperiam asperiores nemo. Magni dolor maxime debitis vitae, eaque hic
+          ab mollitia voluptatibus, a nostrum eveniet laborum!
         </p>
+
         <br />
+
         <p className='text-xl'>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor soluta,
-          voluptatem quos quo ex fugit nam quaerat, quam iure velit mollitia
-          iste debitis, magni voluptatum commodi? Hic in quas, sit fugit quia
-          unde ipsam laudantium inventore numquam itaque suscipit. Soluta,
-          asperiores. Blanditiis voluptatibus aspernatur possimus quibusdam
-          accusantium repellat ab. Sunt.
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laborum
+          pariatur, vel similique sint, nobis aspernatur ut praesentium
+          explicabo ipsam aliquid quasi laboriosam et culpa possimus repudiandae
+          quisquam ullam maiores ab unde. Fugiat odio mollitia nemo alias.
+          Commodi facilis atque nulla vero voluptatem explicabo. Quibusdam,
+          magni quo! Eum cupiditate debitis labore.
         </p>
       </div>
     </div>
