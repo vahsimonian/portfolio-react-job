@@ -1,7 +1,6 @@
 import React from 'react'
 import HeroImage from '../assets/heroimage.jpg'
 import { MdOutlineKeyboardArrowRight } from 'react-icons/md'
-import { Link } from 'react-scroll'
 import { NavLink } from 'react-router-dom'
 
 const Home = () => {
