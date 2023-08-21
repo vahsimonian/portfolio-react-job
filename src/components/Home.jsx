@@ -1,5 +1,6 @@
 import React from 'react'
-import HeroImage from '../assets/heroimage.jpg'
+// import HeroImage from '../assets/heroimage.jpg'
+import HeroImage from '../assets/icon.jpg'
 import { MdOutlineKeyboardArrowRight } from 'react-icons/md'
 import { NavLink } from 'react-router-dom'
 

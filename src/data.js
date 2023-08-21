@@ -1,5 +1,5 @@
 import abouthero from './assets/about-hero.png'
-import installNode from './assets/portfolio/installNode.jpg'
+import shop from './assets/shop.png'
 import navbar from './assets/portfolio/navbar.jpg'
 import reactParallax from './assets/portfolio/reactParallax.jpg'
 import reactSmooth from './assets/portfolio/reactSmooth.jpg'
@@ -10,32 +10,43 @@ export const portfolios = [
     id: 1,
     src: abouthero,
     linkTo: 'https://legendary-pudding-1a7d39.netlify.app/',
-    desc: 'van-life',
+    desc: '# code',
+    codeLink: 'https://github.com/vahsimonian/moscow-shop',
   },
   {
     id: 2,
     src: reactParallax,
-    linkTo: 'gym',
+    linkTo: 'code for gym..',
+    desc: '# code',
+    codeLink: '',
   },
   {
     id: 3,
     src: navbar,
-    linkTo: 'movies',
+    linkTo: 'code for movies..',
+    desc: '# code',
+    codeLink: '',
   },
   {
     id: 4,
     src: reactSmooth,
-    linkTo: 'news',
+    linkTo: 'code for news..',
+    desc: '# code',
+    codeLink: 'https://github.com/vahsimonian/moscow-shop',
   },
   {
     id: 5,
-    src: installNode,
-    linkTo: 'shop',
+    src: shop,
+    linkTo: 'https://e-commerse-in-moscow.netlify.app/',
+    desc: '# code',
+    codeLink: 'https://github.com/vahsimonian/moscow-shop',
   },
   {
     id: 6,
     src: reactWeather,
-    linkTo: 'weather',
+    linkTo: 'code for weather..',
+    desc: '# code',
+    codeLink: '',
   },
 ]
 
