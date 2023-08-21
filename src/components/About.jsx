@@ -14,23 +14,31 @@ const About = () => {
         </div>
 
         <p className='text-xl mt-20'>
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eius,
-          deserunt illum mollitia officiis qui exercitationem perferendis neque
-          quasi a recusandae necessitatibus tempora iusto! Blanditiis error
-          iste, totam fugiat recusandae rerum laborum perferendis molestiae
-          aperiam asperiores nemo. Magni dolor maxime debitis vitae, eaque hic
-          ab mollitia voluptatibus, a nostrum eveniet laborum!
+          Greetings! I'm Vah, an Armenian expatriate hailing from the United
+          States and currently residing in the vibrant landscapes of Cambodia,
+          nestled in Southeast Asia. My journey has taken me across borders and
+          cultures, spanning from China to Russia, and eventually leading me to
+          the enchanting town of Kampot. Since 2018, I've been passionately
+          imparting knowledge in the realms of English and Math, channeling my
+          expertise across diverse international settings. As I guided eager
+          minds through the intricacies of these subjects, I found myself drawn
+          to the captivating world of web development.
         </p>
 
         <br />
 
         <p className='text-xl'>
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laborum
-          pariatur, vel similique sint, nobis aspernatur ut praesentium
-          explicabo ipsam aliquid quasi laboriosam et culpa possimus repudiandae
-          quisquam ullam maiores ab unde. Fugiat odio mollitia nemo alias.
-          Commodi facilis atque nulla vero voluptatem explicabo. Quibusdam,
-          magni quo! Eum cupiditate debitis labore.
+          In late 2021, I embarked on a new odyssey, delving into the intricate
+          realms of HTML, CSS, and JavaScript. With each passing day, I've
+          diligently nurtured these skills, witnessing their evolution from
+          nascent concepts to formidable tools in my arsenal. This continuous
+          refinement has now reached a point where I stand poised to embrace the
+          role of a junior web developer. The intersection of creativity and
+          logic in web development resonates deeply with me, and I'm thrilled to
+          embark on this exciting chapter. If you're seeking a dedicated and
+          eager learner with an unwavering commitment to growth, I would be
+          truly honored to engage in a conversation with you. Thank you for your
+          invaluable time and consideration. Warm regards, Vah
         </p>
       </div>
     </div>

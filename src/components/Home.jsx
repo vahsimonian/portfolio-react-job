@@ -16,9 +16,11 @@ const Home = () => {
             I'm a Full Stack Developer
           </h2>
           <p className='text-gray-500 py-4 max-w-md'>
-            I have 8 years of experience building and desgining software.
-            Currently, I love to work on web application using technologies like
-            React, Tailwind, Next JS and GraphQL.
+            I'm Vah, an Armenian in Cambodia since 2018, teaching English/Math
+            across cultures. I've immersed myself in web development, mastering
+            HTML, CSS, and JavaScript since late 2021. Ready to step into the
+            role of a junior web developer, I try to blend creativity and logic
+            to craft digital solutions. Let's connect and create!
           </p>
 
           <div>
