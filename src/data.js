@@ -9,7 +9,7 @@ export const portfolios = [
   {
     id: 1,
     src: abouthero,
-    linkTo: 'https://legendary-pudding-1a7d39.netlify.app/',
+    linkTo: 'https://jovial-zabaione-40249a.netlify.app/',
     desc: '# code',
     codeLink: 'https://github.com/vahsimonian/moscow-shop',
   },
