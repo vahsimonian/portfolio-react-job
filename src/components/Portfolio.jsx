@@ -30,7 +30,9 @@ const Portfolio = () => {
                 />
               </Link>
               <Link to={codeLink} target='_blank' className='mt-4 absolute'>
-                <p className='font-bold ml-2'>{desc}</p>
+                <p style={{ fontSize: '12.5px' }} className='font-bold ml-2'>
+                  code
+                </p>
               </Link>
             </div>
           ))}

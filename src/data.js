@@ -1,7 +1,7 @@
-import abouthero from './assets/about-hero.png'
+import abouthero from './assets/portfolio/about-hero.png'
 import shop from './assets/shop.png'
 import navbar from './assets/portfolio/navbar.jpg'
-import reactParallax from './assets/portfolio/reactParallax.jpg'
+import airbnb from './assets/portfolio/airbnb.png'
 import reactSmooth from './assets/portfolio/reactSmooth.jpg'
 import reactWeather from './assets/portfolio/reactWeather.jpg'
 
@@ -15,10 +15,10 @@ export const portfolios = [
   },
   {
     id: 2,
-    src: reactParallax,
-    linkTo: 'code for gym..',
+    src: airbnb,
+    linkTo: 'https://classy-clafoutis-7f38fe.netlify.app/',
     desc: '# code',
-    codeLink: '',
+    codeLink: 'https://github.com/vahsimonian/air-bnb-clone',
   },
   {
     id: 3,
