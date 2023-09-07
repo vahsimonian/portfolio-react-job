@@ -21,7 +21,7 @@ const Portfolio = () => {
 
         <div className='grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0'>
           {portfolios.map(({ id, src, linkTo, desc, codeLink }) => (
-            <div key={id} className='shadow-md shadow-gray-600 rounded-lg'>
+            <div key={id} className='shadow-md mt-8 shadow-gray-600 rounded-lg'>
               <Link to={`${linkTo}`} target='_blank'>
                 <img
                   src={src}
@@ -31,7 +31,7 @@ const Portfolio = () => {
               </Link>
               <Link to={codeLink} target='_blank' className='mt-4 absolute'>
                 <p style={{ fontSize: '12.5px' }} className='font-bold ml-2'>
-                  code
+                  code source...
                 </p>
               </Link>
             </div>

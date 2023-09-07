@@ -44,9 +44,9 @@ export const portfolios = [
   {
     id: 6,
     src: reactWeather,
-    linkTo: 'code for weather..',
+    linkTo: 'https://master--rococo-strudel-89abf2.netlify.app/',
     desc: '# code',
-    codeLink: '',
+    codeLink: 'https://github.com/vahsimonian/weather-app-portfolio',
   },
 ]
 
