@@ -1,6 +1,6 @@
 import abouthero from './assets/portfolio/about-hero.png'
 import shop from './assets/shop.png'
-import navbar from './assets/portfolio/navbar.jpg'
+import navbar from './assets/portfolio/restaurant.png'
 import airbnb from './assets/portfolio/airbnb.png'
 import reactSmooth from './assets/portfolio/reactSmooth.jpg'
 import reactWeather from './assets/portfolio/reactWeather.jpg'
@@ -23,9 +23,9 @@ export const portfolios = [
   {
     id: 3,
     src: navbar,
-    linkTo: 'code for movies..',
+    linkTo: 'https://master--neon-kringle-618c71.netlify.app/#',
     desc: '# code',
-    codeLink: '',
+    codeLink: 'https://github.com/vahsimonian/iceberg-kampot',
   },
   {
     id: 4,
