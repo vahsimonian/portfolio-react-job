@@ -34,3 +34,7 @@ a:hover {
 a:hover {
   color: gray;
 }
+
+.home-mobile {
+  background-color: red;
+}
