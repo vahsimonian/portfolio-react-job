@@ -19,6 +19,7 @@ function App() {
     <BrowserRouter>
       <Routes>
         <Route path='/' element={<Layout />}>
+          <Route path='/' element={<SocialLinks />} />
           <Route index element={<Home />} />
           <Route path='about' element={<About />} />
           <Route path='experience' element={<Experience />} />
@@ -34,7 +35,6 @@ function App() {
               <Route path='weather' element={<Weather />} />
             </Route>
           </Route>
-          <Route path='/' element={<SocialLinks />} />
         </Route>
       </Routes>
     </BrowserRouter>

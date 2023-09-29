@@ -2,7 +2,7 @@ import abouthero from './assets/portfolio/about-hero.png'
 import shop from './assets/shop.png'
 import navbar from './assets/portfolio/restaurant.png'
 import airbnb from './assets/portfolio/airbnb.png'
-import reactSmooth from './assets/portfolio/reactSmooth.jpg'
+import btc from './assets/portfolio/bitcoin.png'
 import reactWeather from './assets/portfolio/reactWeather.jpg'
 
 export const portfolios = [
@@ -29,7 +29,7 @@ export const portfolios = [
   },
   {
     id: 4,
-    src: reactSmooth,
+    src: btc,
     linkTo: 'code for news..',
     desc: '# code',
     codeLink: 'https://github.com/vahsimonian/moscow-shop',
