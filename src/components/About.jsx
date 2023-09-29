@@ -14,8 +14,7 @@ const About = () => {
         </div>
 
         <p className='text-xl mt-20'>
-          Greetings! I'm Vah, an Armenian expatriate hailing from the United
-          States and currently residing in the vibrant landscapes of Cambodia,
+          Greetings! I'm Vah, an Armenian expatriate  and currently residing in the vibrant landscapes of Cambodia,
           nestled in Southeast Asia. My journey has taken me across borders and
           cultures, spanning from China to Russia, and eventually leading me to
           the enchanting town of Kampot. Since 2018, I've been passionately
