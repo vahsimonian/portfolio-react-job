@@ -23,16 +23,16 @@ export const portfolios = [
   {
     id: 3,
     src: navbar,
-    linkTo: 'https://master--neon-kringle-618c71.netlify.app/#',
+    linkTo: 'https://master--neon-kringle-618c71.netlify.app/',
     desc: '# code',
     codeLink: 'https://github.com/vahsimonian/iceberg-kampot',
   },
   {
     id: 4,
     src: btc,
-    linkTo: 'code for news..',
+    linkTo: 'https://master--precious-sprite-7845c0.netlify.app/',
     desc: '# code',
-    codeLink: 'https://github.com/vahsimonian/moscow-shop',
+    codeLink: 'https://github.com/vahsimonian/btc-comparison-app',
   },
   {
     id: 5,
