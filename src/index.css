@@ -20,6 +20,7 @@ h1 {
 a.navbar {
   text-decoration: none;
 }
+
 a:hover {
   text-decoration: underline;
 }
@@ -28,18 +29,22 @@ a:hover {
   text-decoration: underline;
   color: gray;
 }
+
 .active-link:hover {
   text-decoration: underline;
+  /* text-decoration: underline; */
 }
+
 a:hover {
   color: gray;
 }
 
 @media screen and (min-width: 100px) {
   body {
-background:black
+    background: black
   }
-  .navbar-mobile{
+
+  .navbar-mobile {
     width: fit-content;
     justify-content: center
   }
