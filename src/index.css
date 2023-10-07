@@ -31,7 +31,7 @@ a:hover {
 }
 
 .active-link:hover {
-  text-decoration: dotted;
+  text-decoration: underline;
 }
 
 a:hover {
