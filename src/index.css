@@ -27,7 +27,7 @@ a:hover {
 
 .active-link {
   text-decoration: underline;
-  color: red;
+  color: gray;
 }
 
 .active-link:hover {
