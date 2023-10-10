@@ -65,6 +65,9 @@ a:hover {
   .home-img {
     margin-bottom: 70px;
   }
+  .contact-page {
+    background-color: #000;
+  }
 }
 .navbar-mobile {
   display: flex;
