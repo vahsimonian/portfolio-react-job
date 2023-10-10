@@ -68,6 +68,11 @@ a:hover {
   .contact-page {
     background-color: #000;
   }
+  .contact-div {
+    background-color: #fff;
+    width: 610px;
+    height: 124vh;
+  }
 }
 .navbar-mobile {
   display: flex;
