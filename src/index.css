@@ -51,7 +51,13 @@ a:hover {
     /* justify-content: center; */
   }
   .home-screen {
-    width: 100%;
+    width: 150%;
+    box-sizing: border-box;
+    height: 1200px;
+    background: linear-gradient(0, 0, 0, 1);
+  }
+  .home-img {
+    margin-bottom: 70px;
   }
 }
 .navbar-mobile {
