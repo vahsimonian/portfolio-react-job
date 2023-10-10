@@ -25,7 +25,7 @@ const NavBar = () => {
   ];
 
   return (
-    <div className="items-center w-full h-20 px-4 text-white bg-black navbar-mobile">
+    <div className="w-full h-20 px-4 navbar-mobile">
       <div>
         <h1 className="text-4xl font-signature ml-2">Vah Simon</h1>
       </div>

@@ -51,4 +51,7 @@ a:hover {
 .navbar-mobile {
   display: flex;
   justify-content: space-between;
+  align-items: center;
+  background-color: #000;
+  color: white;
 }
