@@ -48,3 +48,7 @@ a:hover {
     justify-content: center;
   }
 }
+.navbar-mobile {
+  display: flex;
+  justify-content: space-between;
+}
