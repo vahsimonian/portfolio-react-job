@@ -45,6 +45,6 @@ a:hover {
 
   .navbar-mobile {
     width: fit-content;
-    /* justify-content: center */
+    justify-content: center;
   }
 }
