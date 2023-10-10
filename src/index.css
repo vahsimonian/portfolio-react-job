@@ -48,7 +48,6 @@ a:hover {
 
   .navbar-mobile {
     width: fit-content;
-    /* justify-content: center; */
   }
   .home-screen {
     width: 150%;
@@ -72,6 +71,9 @@ a:hover {
     background-color: #fff;
     width: 610px;
     height: 124vh;
+  }
+  .about-page {
+    background-color: #000;
   }
 }
 .navbar-mobile {
