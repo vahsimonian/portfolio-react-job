@@ -68,13 +68,13 @@ a:hover {
     height: 124vh;
   }
   .about-page {
-    background-color: #000;
+    /* background-color: #000; */
   }
   .experience-page {
-    background-color: #000;
+    /* background-color: #000; */
   }
   .portfolio-page {
-    background-color: #000;
+    /* background-color: #000; */
   }
 }
 .navbar-mobile {
