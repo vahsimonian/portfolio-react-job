@@ -57,6 +57,9 @@ a:hover {
     flex-direction: column;
     height: auto;
   }
+  .contact-page {
+    height: 100%;
+  }
 }
 
 .navbar {
