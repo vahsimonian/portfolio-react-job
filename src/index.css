@@ -37,3 +37,50 @@ a:hover {
 a:hover {
   color: gray;
 }
+
+@media screen and (max-width: 600px) {
+  body {
+    background: black;
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+  }
+  /*
+  .navbar-mobile {
+    width: fit-content;
+  }
+  .home-screen {
+    width: 150%;
+    box-sizing: border-box;
+    height: 1200px;
+    background-color: #000;
+    align-items: center;
+  }
+  .home-img {
+    margin-bottom: 70px;
+  }
+  .contact-page {
+    background-color: #000;
+  }
+  .contact-div {
+    background-color: #fff;
+    width: 610px;
+    height: 124vh;
+  }
+  .about-page {
+    background-color: #000;
+  }
+  .experience-page {
+    background-color: #000;
+  }
+  .portfolio-page {
+    background-color: #000;
+  } */
+}
+.navbar-mobile {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #000;
+  color: white;
+}
