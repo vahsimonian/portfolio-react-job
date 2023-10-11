@@ -25,12 +25,12 @@ const NavBar = () => {
   ];
 
   return (
-    <div className="w-full h-20 px-4 navbar" id="navbar">
+    <div className="w-full h-20 px-4 navbar">
       <div>
         <h1 className="text-4xl font-signature ml-2">Vah Simon</h1>
       </div>
 
-      <ul className="flex">
+      <ul className="flex" id="navbar">
         <NavLink
           className={({ isActive }) => (isActive ? "active-link" : null)}
           to={"/"}
