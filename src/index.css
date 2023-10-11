@@ -83,4 +83,5 @@ a:hover {
   align-items: center;
   background-color: #000;
   color: white;
+  display: none;
 }
