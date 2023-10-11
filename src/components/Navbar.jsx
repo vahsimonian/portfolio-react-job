@@ -30,7 +30,7 @@ const NavBar = () => {
         <h1 className="text-4xl font-signature ml-2">Vah Simon</h1>
       </div>
 
-      <ul className="flex navbar">
+      <ul className="flex">
         <NavLink
           className={({ isActive }) => (isActive ? "active-link" : null)}
           to={"/"}
