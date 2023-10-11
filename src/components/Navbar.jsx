@@ -67,6 +67,7 @@ const NavBar = () => {
               className="px-4 cursor-pointer capitalize py-6 text-4xl"
             >
               <NavLink
+                onClick={() => setNav(!nav)}
                 to={link}
                 className={({ isActive }) => (isActive ? "active-link" : null)}
               >
