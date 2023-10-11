@@ -53,13 +53,8 @@ a:hover {
     width: 150%;
     box-sizing: border-box;
     height: 1200px;
-    background: linear-gradient(
-      to bottom,
-      rgba(255, 255, 255, 0.7),
-      rgba(176, 240, 180, 0.7) rgba(157, 162, 252, 0.7) rgba(176, 240, 180, 0.7)
-        rgba(253, 102, 185, 0.7)
-    );
     background-color: #000;
+    align-items: center;
   }
   .home-img {
     margin-bottom: 70px;
@@ -73,6 +68,12 @@ a:hover {
     height: 124vh;
   }
   .about-page {
+    background-color: #000;
+  }
+  .experience-page {
+    background-color: #000;
+  }
+  .portfolio-page {
     background-color: #000;
   }
 }
