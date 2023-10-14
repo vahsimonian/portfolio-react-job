@@ -19,11 +19,11 @@ function App() {
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<Layout />}>
-          <Route path="/" element={<SocialLinks />} />
           <Route index element={<Home />} />
           <Route path="about" element={<About />} />
           <Route path="experience" element={<Experience />} />
           <Route path="contact" element={<Contact />} />
+          {/* <Route path="/" element={<SocialLinks />} /> */}
           <Route>
             <Route path="portfolio">
               <Route index element={<Portfolio />} />
