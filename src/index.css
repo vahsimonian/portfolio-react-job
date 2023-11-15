@@ -36,6 +36,7 @@ a:hover {
 
 a:hover {
   color: gray;
+  color: gray;
 }
 
 @media screen and (max-width: 639.5px) {
